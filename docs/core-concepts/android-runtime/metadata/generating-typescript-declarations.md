@@ -29,7 +29,7 @@ The above is a bad practice for two reasons:
 
 ### The Good Practice
 
-To resolve the above, in NativeScript, there is a developer dependency called [tns-platform-declarations].(https://preview.npmjs.com/package/tns-platform-declarations) After the intial instalation and setup, you could directly access the `android` namespace from the Android SDK.
+To resolve the above, in NativeScript, there is a developer dependency called [tns-platform-declarations](https://preview.npmjs.com/package/tns-platform-declarations). After the intial instalation and setup, you could directly access the `android` namespace from the Android SDK.
 ```TypeScript
 // npm i tns-platform-declarations --save-dev
 // follow the setup instructions at https://preview.npmjs.com/package/tns-platform-declarations
